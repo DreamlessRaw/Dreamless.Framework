@@ -1,0 +1,9 @@
+global using Dreamless.Application.Abstractions;
+global using Dreamless.Application.Common;
+global using Dreamless.Application.Dtos;
+global using Dreamless.Application.Security;
+global using Dreamless.Core.Entities;
+global using Dreamless.Core.Enums;
+global using Dreamless.Infrastructure.Common;
+global using Dreamless.Infrastructure.Identity;
+global using SqlSugar;

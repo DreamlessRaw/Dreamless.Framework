@@ -1,0 +1,15 @@
+services:
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    platform: linux/amd64
+    container_name: dreamless-mssql
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "Dreamless@2026"
+    ports:
+      - "1434:1433"
+    volumes:
+      - dreamless-mssql:/var/opt/mssql
+
+volumes:
+  dreamless-mssql:

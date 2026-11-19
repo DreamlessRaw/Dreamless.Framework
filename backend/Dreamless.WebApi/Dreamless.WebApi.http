@@ -1,0 +1,6 @@
+@Dreamless.WebApi_HostAddress = http://localhost:5026
+
+GET {{Dreamless.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

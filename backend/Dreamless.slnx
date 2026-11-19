@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Dreamless.Application/Dreamless.Application.csproj" />
+  <Project Path="Dreamless.Core/Dreamless.Core.csproj" />
+  <Project Path="Dreamless.Infrastructure/Dreamless.Infrastructure.csproj" />
+  <Project Path="Dreamless.WebApi/Dreamless.WebApi.csproj" />
+</Solution>

@@ -1,0 +1,141 @@
+html, body, #root { height: 100%; margin: 0; }
+.header-tool {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 22px;
+  margin: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+}
+.ant-pro-global-header-header-actions-item > .header-tool {
+  padding: 6px 8px;
+  border-radius: 6px;
+}
+.login-tools .header-tool {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  color: rgba(0, 0, 0, 0.65);
+}
+.login-tools .header-tool:hover {
+  background: color-mix(in srgb, var(--dreamless-primary, #1677ff) 12%, transparent);
+  color: var(--dreamless-primary, #1677ff);
+}
+html[data-mode="dark"] .login-tools .header-tool {
+  color: rgba(255, 255, 255, 0.75);
+}
+.theme-option {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.theme-option i {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.ant-pro-global-header-logo h1,
+.ant-pro-sider-logo h1 {
+  font-size: var(--dreamless-font-size, 14px);
+  line-height: 1.4;
+  height: auto;
+}
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(160deg, color-mix(in srgb, var(--dreamless-primary, #1677ff) 18%, white) 0%, #f7f8fa 48%, #ffffff 100%);
+}
+html[data-mode="dark"] .login-page {
+  background: linear-gradient(160deg, color-mix(in srgb, var(--dreamless-primary, #1677ff) 32%, #0b1220) 0%, #111827 52%, #020617 100%);
+}
+.sort-header {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  max-width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.sort-carets {
+  display: inline-flex;
+  flex-direction: column;
+  color: #bfbfbf;
+  font-size: 11px;
+  line-height: 0.7;
+}
+.message-menu-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  max-width: 280px;
+  white-space: normal;
+}
+.message-menu-item strong,
+.message-menu-item span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.message-menu-item em {
+  color: var(--dreamless-text-secondary, #667085);
+  font-style: normal;
+  font-size: 12px;
+}
+.menu-copy-hint {
+  margin: 0 0 12px;
+  color: var(--dreamless-text-secondary, #667085);
+}
+a.muted-link,
+a.muted-link:hover,
+a.muted-link:active {
+  color: #8c8c8c;
+}
+html[data-mode="dark"] a.muted-link,
+html[data-mode="dark"] a.muted-link:hover,
+html[data-mode="dark"] a.muted-link:active {
+  color: rgba(255, 255, 255, 0.45);
+}
+a.danger-link,
+a.danger-link:hover,
+a.danger-link:active {
+  color: var(--dreamless-danger, #ff4d4f);
+}
+.sort-carets .on { color: var(--dreamless-primary, #1677ff); }
+.sort-rank {
+  min-width: 14px;
+  height: 14px;
+  padding: 0 4px;
+  border-radius: 7px;
+  background: var(--dreamless-primary, #1677ff);
+  color: #fff;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: center;
+}
+.ant-picker-range {
+  min-width: calc(var(--dreamless-font-size, 14px) * 18);
+}
+.ant-picker-range .ant-picker-input > input {
+  min-width: calc(var(--dreamless-font-size, 14px) * 6.4);
+}
+.code-preview {
+  max-height: 420px;
+  overflow: auto;
+  background: #0f172a;
+  color: #e2e8f0;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 12px;
+}
